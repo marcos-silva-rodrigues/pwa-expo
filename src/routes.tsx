@@ -3,7 +3,7 @@ import { Feather } from "@expo/vector-icons";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Main from "./pages/Main";
-import Camera from "./pages/Camera";
+import CameraScreen from "./pages/Camera";
 
 const Tab = createBottomTabNavigator();
 
@@ -27,7 +27,7 @@ export default function Routes() {
             ),
           }}
           name="Camera"
-          component={Camera}
+          component={CameraScreen}
         />
       </Tab.Navigator>
     </NavigationContainer>

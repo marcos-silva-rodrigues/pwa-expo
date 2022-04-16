@@ -1,12 +1,13 @@
 import React from 'react';
 import { View } from 'react-native';
+import { Camera } from 'expo-camera';
 
-const Camera: React.FC = () => {
+const CameraScreen: React.FC = () => {
   return (
-    <View>
-
+    <View style={{ flex: 1 }}>
+      <Camera style={{ flex: 1 }}/>
     </View>
   )
 }
 
-export default Camera;
+export default CameraScreen;
